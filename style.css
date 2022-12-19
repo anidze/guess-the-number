@@ -1,0 +1,82 @@
+@font-face {
+  font-family: arcade list;
+  src: url(fonts/ARCADECLASSIC.TTF);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arcade list;
+}
+
+body {
+  background-color: black;
+  font-family: arcade list;
+  color:#ffff;
+  overflow: hidden;
+}
+.againBtn{
+  margin-left: 1vw;
+  padding: 0.2vw 1.5vw;
+  font-size:1.5vw;
+  letter-spacing: 0.1vw;
+  border-radius: 0.7vw;
+}
+.againBtn:hover{
+  background-color: #ffff;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 0, 0);
+
+}
+h1{
+  font-size: 5vw;
+  word-spacing: 4.5vw;
+}
+.secretNumber{
+  height: 170px;
+  width: 400px;
+  display: block;
+  background-color: #ffff;
+  color:black;
+  font-size: 6.5vw;
+  text-align: center;
+  align-items: center;
+  transform: translateX(750px); 
+  z-index: 99;
+}
+.mine{
+  height: 12px;
+  width: 100%;
+  background-color: #ffff;
+  transform: translateY(-50px);
+  
+}
+.myinp{
+  height: 170px;
+  width: 400px;
+  text-align: center;
+  justify-content: center;
+  font-size: 4vw;
+  border: 9px solid #ffff;
+  background-color: transparent;
+  color: #ffff;
+}
+.checkBtn{
+  padding: 0.2vw 1.5vw;
+  font-size:1.5vw;
+  letter-spacing: 0.1vw;
+  border-radius: 0.7vw;
+  background-color: #ffff;
+  color: rgb(12, 12, 12);
+}
+.checkBtn:hover{
+  background-color: #ffff;
+  border: 4px solid rgb(255, 18, 18);
+  color: rgb(0, 0, 0);
+
+}
+.tex, .tex1, .tex2, .tex3{
+font-size: 2.5vw;
+justify-content: center;
+align-items: center;
+}
